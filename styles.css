@@ -61,10 +61,14 @@ body {
     background-color: #e0e0e0;
     padding: 20px;
     border-radius: 10px;
+    transition: 0.3s;
     flex-direction: column;
     justify-content: space-between;
     font-family: arial, sans-serif;
 
+}
+.caja:hover{
+    transform: scale(1.02);
 }
 .caja1{
     width: 300px;
@@ -165,7 +169,6 @@ footer{
     background-color: rgb(230, 230, 230);
     flex: 1;
     font-family:arial, sans-serif;
-    
 }
 .cajapags{
     width:70%;
@@ -176,8 +179,12 @@ footer{
     color: rgb(0, 0, 0);        
     font-size: 18px;
     background-color: #e8eaf6;
+    transition: 0.2s;
     text-align: center    
-
+    
+}
+.cajapags:hover{
+    transform: scale(1.02);
 }
 .conjunto{
     width: 40%;
